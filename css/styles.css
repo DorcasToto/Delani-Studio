@@ -1,7 +1,10 @@
+body{
+    overflow-x: hidden;
+}
 #images1{
     display: flex;
     justify-content: space-between;
-    padding:0.5%;
+    border-left:5%;
 }
 #contactUs{
     background-image:url("../images/backgrounds/c_image.jpg");
@@ -20,3 +23,31 @@
     text-transform: uppercase;
     padding-top:1em;
 }
+#home{
+    background-image:url("../images/backgrounds/h_img.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+
+}
+  #aboutUs,.services,#whatWeDo,#port,#content{
+     padding-top:2%;
+     text-align: center;
+  }
+ h3{
+     font-weight: 800;
+ }
+ .design1,#developmentContent,#managementContent{
+     display: none;
+ }
+ .services{
+    background-image:url("../images/backgrounds/s_image.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: white;
+    padding-top:5%;
+ }
