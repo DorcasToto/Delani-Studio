@@ -2,5 +2,21 @@
     display: flex;
     justify-content: space-between;
     padding:0.5%;
-  
+}
+#contactUs{
+    background-image:url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-top:2%;
+}
+#socialMedia{
+    margin-top: 2%;
+}
+#contact{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding-top:1em;
 }
