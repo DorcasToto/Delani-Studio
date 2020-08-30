@@ -32,7 +32,21 @@ body{
     color: white;
 }
 .homeText{
-    
+    text-align: center;
+    padding-top: 15%;
+
+}
+#delani,#welcome{
+    padding-top:1%;
+    font-size:40px;
+    font-weight: 700;
+}
+.amazing{
+    font-size:10px;
+}
+.mouseClick{
+    text-align: center;
+    padding-top:180px;
 }
   #aboutUs,.services,#whatWeDo,#port,#content{
      padding-top:2%;
