@@ -18,7 +18,15 @@
 //   });
 $(document).ready(function(){
     $(".design").click(function(){
-        $(".img1").toggle();
-        $(".design1").toggle();
+        $("#designImg").toggle();
+        $("#designContent").toggle();
+    });
+    $(".development").click(function(){
+        $("#developmentImg").toggle();
+        $("#developmentContent").toggle();
+    });
+    $(".productManagement").click(function(){
+        $("#managementImg").toggle();
+        $("#managementContent").toggle();
     });
 });

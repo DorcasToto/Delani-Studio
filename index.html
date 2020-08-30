@@ -14,10 +14,14 @@
 <body>
     <div class="container-fluid">
         <div id="home">
-            <div id="homeText">
+            <div class="homeText">
+                <img src="images/logo.png" class="img-fluid">
+                <p id="welcome">WELCOME</p>
+                <p id="delani">TO DELANI STUDIO</p>
+                <p class="amazing">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            </div>
+            <div class="mouseClick">
                 <img src="images/mouse_click.png" class="img-fluid">
-                <h1 class="col-md-6 mx-auto">Welcome to Dorcas Studio.</h1>
-                <p class="col-md-6 mx-auto">Amazing people are making amazing desings in a fun environment.</p>
             </div>
         </div>
         <div id="aboutUs">
@@ -41,13 +45,13 @@
         <div id="whatWeDo">
             <h2>WHAT WE DO</h2>
             <div class="row" id="content">
-                <div class="col-sm" class="design">
-                    <div class="img1">
+                <div class="col-sm design">
+                    <div id="designImg">
                         <img src="images/services_icons/design_icon.png">
                         <h5>DESIGN</h5>
                     </div>
-                    <div class="design1">
-                        <h3>Design</h3>
+                    <div id="designContent">
+                        <h5 id="h5">DESIGN</h5>
                         <p>Our design practice offers a full range of services including brand strategy, interaction and
                             visual design and user experience testing.</p>
                         <p>Throughout your project, our designers create and implement visual design and workflows,
@@ -55,13 +59,13 @@
                     </div>
                 </div>
 
-                <div class="col-sm" id="development">
+                <div class="col-sm development">
                     <div id="developmentImg">
                         <img src="images/services_icons/dev_icon.png">
                         <h5>DEVELOPMENT</h5>
                     </div>
                     <div id="developmentContent">
-                        <h3>Development</h3>
+                        <h5 id="h5">DEVELOPMENT</h5>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development technologies
                         </p>
                         <p>They collaborate with your team to write, and improve code on a daily basis, using proven
@@ -69,13 +73,13 @@
                     </div>
                 </div>
 
-                <div class="col-sm" id="productManagement">
+                <div class="col-sm productManagement">
                     <div id="managementImg">
                         <img src="images/services_icons/product_icon.png">
                         <h5>PRODUCT MANAGEMENT</h5>
                     </div>
                     <div id="managementContent">
-                        <h3>Design</h3>
+                        <h5 id="h5">PRODUCT MANAGEMENT</h5>
                         <p>Planning and development id iterative.Because we are constantly coding and testing, the
                             products we build are always ready to go live.</p>
                         <p>This iterative process allows for changes as business requirements evolve.</p>
@@ -89,7 +93,7 @@
                 <div class="col-md-3 mb-4 d-flex align-items-stretch">
                     <div class="card">
                         <div class="view overlay">
-                            <img src="images/portfolio/work1.jpg" class="img-fluid">
+                            <img src="images/portfolio/work1.jpg" class="card-img-top img-fluid">
                         </div>
                     </div>
                 </div>
@@ -146,21 +150,21 @@
                 </div>
             </div>
         </div>
-        <div class="" id="contactUs">
+        <div class="contactUs">
             <h3 id="contact">Contact Us</h3>
-            <form class="p-3 mt-3 col-md-6 mx-auto">
+            <form class="p-3 mt-3 col-md-6 mx-auto" id="formContact">
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Name..">
+                            <input type="text" class="form-control" placeholder="Name.. " id="name">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Email..">
+                            <input type="text" class="form-control" placeholder="Email.." id="email">
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control rounded-0" id="contactUs" rows="6">Your message here..</textarea>
+                    <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message" placeholder="Your message here"></textarea>
                 </div>
             </form>
         </div>
@@ -199,7 +203,7 @@
 
     <footer>
         <div class="container text-muted text-center py-3 mt-5">
-            <h5>Copyright &copy; 2020 | <a href="https://github.com/DorcasToto"> Dorcas Studio</a></h5>
+            <h5>Copyright &copy; 2020 | <a href="https://github.com/DorcasToto"> Delani Studio</a></h5>
         </div>
     </footer>
 
