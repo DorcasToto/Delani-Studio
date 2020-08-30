@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -21,7 +23,9 @@
                 <p class="amazing">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             </div>
             <div class="mouseClick">
-                <img src="images/mouse_click.png" class="img-fluid">
+                <a href="#aboutUs">
+                    <img src="images/mouse_click.png" class="mx-auto d-block pt-8 jump">
+                </a>
             </div>
         </div>
         <div id="aboutUs">
@@ -164,16 +168,17 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Name.. " id="name">
+                            <input type="text" class="form-control" placeholder="Name.. " id="name" name="FNAME" class="" id="mce-FNAME" required>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Email.." id="email">
+                            <input type="email" class="form-control" placeholder="Email.." id="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message" placeholder="Your message here"></textarea>
+                    <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message" placeholder="Your message here" required></textarea>
                 </div>
+                <button type="button" class="btn btn-primary">Submit</button>
             </form>
         </div>
         <div id="socialMedia" class="col-6 mx-auto">

@@ -46,7 +46,6 @@ body{
     font-size:10px;
 }
 .mouseClick{
-    text-align: center;
     padding-top:190px;
 }
   #aboutUs,.services,#whatWeDo,#port,#content{
@@ -71,13 +70,11 @@ body{
  #h5{
      font-weight: 600;
  }
- #name,#email{
+ #name,#email,#contactUs{
     background-color: transparent;  
+     color: white;
  }
- textarea.form-control{  
-    background-color: transparent !important;  
- }
- 
+
  .form-control::placeholder{
      color: white;
      opacity: 1;
