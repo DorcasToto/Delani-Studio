@@ -6,7 +6,7 @@ body{
     justify-content: space-between;
     border-left:5%;
 }
-#contactUs{
+.contactUs{
     background-image:url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
@@ -30,7 +30,9 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
-
+}
+.homeText{
+    
 }
   #aboutUs,.services,#whatWeDo,#port,#content{
      padding-top:2%;
@@ -51,3 +53,19 @@ body{
     color: white;
     padding-top:5%;
  }
+ #h5{
+     font-weight: 600;
+ }
+ #name,#email{
+    background-color: transparent;  
+ }
+ textarea.form-control{
+    background-color: transparent !important;  
+
+ }
+ 
+ .form-control::placeholder{
+     color: white;
+     opacity: 1;
+ }
+ 
