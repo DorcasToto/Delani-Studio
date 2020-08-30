@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 #images1{
     display: flex;
@@ -46,7 +47,7 @@ body{
 }
 .mouseClick{
     text-align: center;
-    padding-top:180px;
+    padding-top:190px;
 }
   #aboutUs,.services,#whatWeDo,#port,#content{
      padding-top:2%;
@@ -73,13 +74,22 @@ body{
  #name,#email{
     background-color: transparent;  
  }
- textarea.form-control{
+ textarea.form-control{  
     background-color: transparent !important;  
-
  }
  
  .form-control::placeholder{
      color: white;
      opacity: 1;
+ }
+ .project{
+     display: none;
+     width: 100%;
+     height: 100%;
+     background-color: white;
+     opacity: 0.5;
+     z-index: 1;
+     position: absolute;
+     top: 0;
  }
  
