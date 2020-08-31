@@ -1,4 +1,3 @@
-
 # Delani Studio
 <table>
 <tr>
