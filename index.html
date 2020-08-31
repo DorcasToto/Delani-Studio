@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DorcasStudio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+    </style>
 </head>
 
 <body>
@@ -21,7 +25,9 @@
                 <p class="amazing">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             </div>
             <div class="mouseClick">
-                <img src="images/mouse_click.png" class="img-fluid">
+                <a href="#aboutUs">
+                    <img src="images/mouse_click.png" class="mx-auto d-block pt-8 jump">
+                </a>
             </div>
         </div>
         <div id="aboutUs">
@@ -111,7 +117,7 @@
                         <div class="view overlay" id="img3">
                             <img src="images/portfolio/work3.jpg" class="card-img-top">
                         </div>
-                        <p id="project3" class="project">PROJECT3</p>                    
+                        <p id="project3" class="project">PROJECT3</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4 d-flex align-items-stretch">
@@ -142,7 +148,7 @@
                 </div>
                 <div class="col-md-3 mb-4 d-flex align-items-stretch">
                     <div>
-                        <div class="view overlay"id="img7">
+                        <div class="view overlay" id="img7">
                             <img src="images/portfolio/work7.jpg" class="card-img-top">
                         </div>
                         <p id="project7" class="project">PROJECT7</p>
@@ -150,32 +156,40 @@
                 </div>
                 <div class="col-md-3 mb-4 d-flex align-items-stretch">
                     <div>
-                        <div class="view overlay"id="img8">
+                        <div class="view overlay" id="img8">
                             <img src="images/portfolio/work8.jpg" class="card-img-top">
                         </div>
-                        <p id="project8"class="project">PROJECT8</p>
+                        <p id="project8" class="project">PROJECT8</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="contactUs">
             <h3 id="contact">Contact Us</h3>
-            <form class="p-3 mt-3 col-md-6 mx-auto" id="formContact">
+            <form class="p-3 mt-3 col-md-6 mx-auto" id="formContact" onsubmit="main()" method="POST"
+                action="https://gmail.us17.list-manage.com/subscribe/post?u=196a0b6548078a3e4dbb9813f&amp;id=67d2d6d20f"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Name.. " id="name">
+                            <input type="text" class="form-control" placeholder="Name.. " id="name" class="">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Email.." id="email">
+                            <input type="email" class="form-control" placeholder="Email.." id="email" class="">
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message" placeholder="Your message here"></textarea>
+                    <textarea class="form-control rounded-0" id="contactUs" rows="6" id="message"
+                        placeholder="Your message here" required></textarea>
                 </div>
+                  <div class=" clear col-2 mt-3 mx-auto mb-4">
+                        <input type="submit"  value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
             </form>
         </div>
+
         <div id="socialMedia" class="col-6 mx-auto">
             <div class="row">
                 <div class="col">
@@ -208,12 +222,22 @@
             </div>
         </div>
     </div>
-
     <footer>
         <div class="container text-muted text-center py-3 mt-5">
-            <h5>Copyright &copy; 2020 | <a href="https://github.com/DorcasToto"> Delani Studio</a></h5>
+            <h5>Copyright &copy;| <a href="https://github.com/DorcasToto"> Delani Studio<br>2020</a></h5>
         </div>
     </footer>
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function ($) {
+            window.fnames = new Array(); window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text'; fnames[2] = 'LNAME';
+            ftypes[2] = 'text'; fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+        }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
 
 </body>
 
