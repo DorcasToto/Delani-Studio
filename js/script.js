@@ -56,33 +56,33 @@ $(document).ready(function(){
 });
 
 function main() {
-    var userName = document.getElementById("name").value;
-    var emailAddress = document.getElementById("email").value;
-    var textMessage = document.getElementById("message").value;
-    var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    // var userName = document.getElementById("name").value;
+    // var emailAddress = document.getElementById("email").value;
+    // // var textMessage = document.getElementById("message").value;
+    // var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     
-    var validateForm = function() {
-        if(userName == "" || emailAddress == "" || textMessage == "") {
-        alert("Please fill in the form!");
-        }
-        else {
-            return true;
-        };
+    // var validateForm = function() {
+    //     if(userName == "" || emailAddress == "" || textMessage == "") {
+    //     alert("Please fill in the form!");
+    //     }
+    //     else {
+    //         return true;
+    //     };
 
-        if(emailAddress !== mailFormat) {
-            alert("Input the correct email address!")
-        }
-        else {
-            return true;
-        };
-    }
+    //     if(emailAddress !== mailFormat) {
+    //         alert("Input the correct email address!")
+    //     }
+    //     else {
+    //         return true;
+    //     };
+    // }
     
-    if (validateForm() === true) {
-            alert("We have received your message " + name + ". Thank you for reaching out to us.")
-        }
-        else {
-            return false;
-        };
+    // if (validateForm() === true) {
+    //         alert("We have received your message " + name + ". Thank you for reaching out to us.")
+    //     }
+    //     else {
+    //         return false;
+    //     };
     
 
 
